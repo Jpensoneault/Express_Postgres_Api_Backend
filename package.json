@@ -1,8 +1,8 @@
 {
   "name": "express-api-template",
   "version": "0.0.0",
+  "type":"module",
   "scripts": {
-    "type":"module",
     "prestart": "babel ./src --out-dir build",
     "start": "node ./build/bin/www",
     "startdev": "nodemon --exec babel-node ./src/bin/www",
